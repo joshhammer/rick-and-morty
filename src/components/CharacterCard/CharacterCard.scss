@@ -1,0 +1,30 @@
+.character-card {
+    display: flex;
+    width: 40%;
+    height: 200px;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    background: rgba(132, 179, 185, .25);
+    & img {
+        height: 200px;
+        width: 200px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+.character-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem 3rem;
+    width: 100%;
+    color: white;
+    letter-spacing: 1px;
+    & h3 {
+        font-size: 1.5rem;
+    }
+    & p {
+        font-size: 1.25rem;
+    }
+}
